@@ -501,6 +501,29 @@ section:nth-child(even){
     padding:1rem 0;
 }
 
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    flex-basis: 48%;
+  }
+  
+  .question {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
